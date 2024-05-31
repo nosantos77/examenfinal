@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Operaciones</string>
+    <string name="operando_2">Operando 2</string>
+    <string name="operando_1">Operando_1</string>
+    <string name="grabar_operacion">GRABAR OPERACION</string>
+    <string name="ver_listado">VER LISTADO</string>
+    <string-array name="operaciones">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>

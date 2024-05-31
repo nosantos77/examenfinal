@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etOperando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/operando_1" />
+
+    <EditText
+        android:id="@+id/etOperando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/operando_2" />
+
+    <Spinner
+        android:id="@+id/spinnerOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/operaciones" />
+
+    <Button
+        android:id="@+id/btnGrabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grabar_operacion" />
+
+    <Button
+        android:id="@+id/btnVerListado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_listado" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
